@@ -3,6 +3,7 @@ Originally from code.google.com/p/mergex
 
 This command line tool allow you to merge XML files with the same root node. It either merge the content in one root node, or encapsulate all source root nodes in a new parent root node.
 
+```
 mergex v2.1:
         Merge XML files to std output or an output file.
         ALL XML should have the same xml prolog and root node.
@@ -31,4 +32,4 @@ Samples:
         mergex -ooutput.xml -pROOT a.xml b.xml c.xml
         mergex -ooutput.xml -pROOT -avalue='test' *.xml
         mergex -ooutput.xml -p -avalue='test' -aAnotherAttribute='anothertest' *.xml
-
+```
