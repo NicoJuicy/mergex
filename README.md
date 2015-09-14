@@ -1,5 +1,5 @@
-# mergex
-Originally from code.google.com/p/mergex
+# mergex 2.1
+### Exported from code.google.com/p/mergex
 
 This command line tool allow you to merge XML files with the same root node. It either merge the content in one root node, or encapsulate all source root nodes in a new parent root node.
 
